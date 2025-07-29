@@ -4,7 +4,7 @@ A modular toolchain for identifying and investigating coordinated inauthentic be
 
 ---
 
-## 🧭 Project Purpose
+##  Project Purpose
 
 This tool detects and analyzes suspected sockpuppet accounts using a hybrid approach that combines:
 - API-based tweet and account metadata retrieval (via [SocialData.tools](https://docs.socialdata.tools))
@@ -14,17 +14,14 @@ This tool detects and analyzes suspected sockpuppet accounts using a hybrid appr
 
 ---
 
-## 🧱 System Architecture
+##  System Architecture
 
 ```plaintext
 ┌──────────────┐
 │ Entry Points │  ← Known account, tweet, or hashtag
 └──────┬───────┘
        ↓
-┌────────────────────┐
-│ SocialData API Core│ ← Tweet/account metadata, metrics, timelines
-└──────┬─────────────┘
-       ↓
+
 ┌─────────────────────────────┐
 │ Metadata Feature Extractor  │ ← Source app, device, times, bio, lang
 └──────┬──────────────────────┘
