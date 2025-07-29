@@ -7,7 +7,6 @@ A modular toolchain for identifying and investigating coordinated inauthentic be
 ##  Project Purpose
 
 This tool detects and analyzes suspected sockpuppet accounts using a hybrid approach that combines:
-- API-based tweet and account metadata retrieval (via [SocialData.tools](https://docs.socialdata.tools))
 - Headless browser automation for visual and behavioral profiling (via Playwright)
 - Stylometric and behavioral clustering for pattern recognition
 - Legally defensible logging and data preservation
